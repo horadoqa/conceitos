@@ -74,8 +74,30 @@ Os testes de API para segurança também podem incluir:
 
     Simula um ataque cibernético para identificar vulnerabilidades da API que um invasor em potencial poderia explorar. Esse teste é feito usando algoritmos especializados que procuram injeções de código e interrompem essas solicitações antes que possam causar qualquer dano ao servidor.
 
-Ferramentas:
-- [Postman](https://www.postman.com/)
-- [JMeter](https://jmeter.apache.org/)
-- [K6](https://k6.io/)
-- [Locust](https://locust.io/)
+## Ferramentas:
+
+
+<div align="center">
+
+<img>
+
+[<img src="../docs/images/postman.png" alt="Postman">](https://www.postman.com/)
+[<img src="../docs/images/jmeter.png" alt="Jmeter">](https://jmeter.apache.org/)
+[<img src="../docs/images/k6.png" alt="K6">](https://k6.io/)
+[<img src="../docs/images/locust.png" alt="Locust">](https://locust.io/)
+
+</img>
+
+</div>
+
+<style>
+
+img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px
+}
+
+</style>
+
+
