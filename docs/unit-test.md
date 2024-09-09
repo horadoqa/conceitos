@@ -51,42 +51,10 @@ A ideia de criar o teste antes do próprio código pode parecer algo difícil de
 
 ## Utilizando o PyTest
 
+- [Operações Matemáticas](./teste-python/operacoes/operacoes.md)
+- [Múltiplos testes simultâneos](./teste-python/multiplos-testes/')
+- [Utilizando Fixtures](./teste-python/fixtures/fixtures.md)
+
 O PyTest é um framework de testes para Python que oferece soluções para a execução de testes, validações e produção de relatórios, além de muitas outras possibilidades. O framework é bastante utilizado por possuir uma flexibilidade razoável e funcionalidades intuitivas.
 
-Conforme falamos anteriormente, é importante nos atentarmos ao padrão utilizado para os arquivos e métodos de testes. A partir dele, o PyTest consegue identificar quais são os arquivos que devem ser testados: quando ele é executado, é realizada uma varredura no diretório do seu projeto, em busca de arquivos e métodos de testes seguindo o padrão de nomenclatura “test_*”.
-
-Uma das grandes funcionalidades do PyTest são as fixtures , que representam tudo o que o teste precisa para fazer o seu trabalho. Ou seja, são funções que você define para moldar uma configuração de testes personalizada. Em um nível bem simples, as funções de teste solicitam fixtures declarando como argumentos, o que torna possível utilizar diversos modelos de entrada de dados em uma função de teste, por exemplo.
-
-test_arquivo.py
-
-<div align="center">
-    ![Funções]()
-<div>
-
-conftest.py
-
-<div align="center">
-    ![]()
-<div>
-
-arquivo.py
-
-<div align="center">
-    ![]()
-<div>
-
-Para que você consiga gerar os relatórios de cobertura, realize o comando “python -m pytest --cov” dentro do diretório de testes, ou informe o caminho do diretório logo após “ — cov”, resultando no relatório exemplificado abaixo:
-
-```bash
-python -m pytest
-```
-
-
-
-Outro caminho que você pode seguir é gerar um arquivo HTML contendo o relatório de testes. Para isso, basta executar 
-
-```bash
-python -m pytest — cov=./ — cov-report html
-```
-
-Será gerado um diretório contendo um relatório com diversos detalhes da cobertura dos testes.
+É importante nos atentarmos ao padrão utilizado para os arquivos e métodos de testes. A partir dele, o PyTest consegue identificar quais são os arquivos que devem ser testados: quando ele é executado, é realizada uma varredura no diretório do seu projeto, em busca de arquivos e métodos de testes seguindo o padrão de nomenclatura `test_*`.
