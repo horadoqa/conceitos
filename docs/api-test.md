@@ -92,11 +92,11 @@ Os testes de API para segurança também podem incluir:
 
 <style>
 
-img {
-    width: 200px;
-    padding: 10px;
-    border-radius: 50px
-}
+    img {
+        width: 200px;
+        padding: 10px;
+        border-radius: 50px
+    }
 
 </style>
 
